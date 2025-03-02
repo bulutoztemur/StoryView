@@ -1,0 +1,6 @@
+framework module StoryViewFramework {
+  umbrella header "StoryViewFramework.h"
+  export *
+
+  module * { export * }
+}

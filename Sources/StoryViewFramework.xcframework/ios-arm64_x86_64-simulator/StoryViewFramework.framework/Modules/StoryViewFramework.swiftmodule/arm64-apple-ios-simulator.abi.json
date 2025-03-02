@@ -1,0 +1,310 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "StoryViewFramework",
+    "printedName": "StoryViewFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StoryViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StoryViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StoryViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "StoryViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StoryViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StoryViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "StoryViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StoryViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/Model.swift",
+      "kind": "BooleanLiteral",
+      "offset": 263,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/Model.swift",
+      "kind": "BooleanLiteral",
+      "offset": 460,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 498,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 7,
+      "value": "\"Alice\""
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 31,
+      "value": "\"https:\/\/picsum.photos\/300\/300\""
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
+      "length": 98,
+      "value": "\"https:\/\/fastly.picsum.photos\/id\/305\/200\/300.jpg?hmac=qqxVDT5GPIxyVNSo9Y_9u_qZSwXU4Cy94gp7VAMVRIw\""
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 390,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 89,
+      "value": "\"https:\/\/v.ftcdn.net\/09\/85\/56\/22\/700_F_985562226_ahjIJPlBh9J4FJPEotCIAVxpCHVBPtE8_ST.mp4\""
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 532,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 98,
+      "value": "\"https:\/\/fastly.picsum.photos\/id\/305\/200\/300.jpg?hmac=qqxVDT5GPIxyVNSo9Y_9u_qZSwXU4Cy94gp7VAMVRIw\""
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 684,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 5,
+      "value": "\"Bob\""
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 31,
+      "value": "\"https:\/\/picsum.photos\/400\/300\""
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "StringLiteral",
+      "offset": 832,
+      "length": 98,
+      "value": "\"https:\/\/fastly.picsum.photos\/id\/485\/200\/300.jpg?hmac=Kv8DZbgB5jppYcdfZdMVu2LM3XAIt-3fvR8VcmrLYhw\""
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 942,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "StringLiteral",
+      "offset": 983,
+      "length": 98,
+      "value": "\"https:\/\/fastly.picsum.photos\/id\/305\/200\/300.jpg?hmac=qqxVDT5GPIxyVNSo9Y_9u_qZSwXU4Cy94gp7VAMVRIw\""
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1093,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "StringLiteral",
+      "offset": 1134,
+      "length": 89,
+      "value": "\"https:\/\/test-videos.co.uk\/vids\/bigbuckbunny\/mp4\/h264\/720\/Big_Buck_Bunny_720_10s_5MB.mp4\""
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1235,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "StringLiteral",
+      "offset": 1277,
+      "length": 98,
+      "value": "\"https:\/\/fastly.picsum.photos\/id\/485\/200\/300.jpg?hmac=Kv8DZbgB5jppYcdfZdMVu2LM3XAIt-3fvR8VcmrLYhw\""
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1387,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryView.swift",
+      "kind": "FloatLiteral",
+      "offset": 229,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryView.swift",
+      "kind": "FloatLiteral",
+      "offset": 279,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryView.swift",
+      "kind": "FloatLiteral",
+      "offset": 329,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 436,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 302,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 339,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 384,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 437,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 477,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 665,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
