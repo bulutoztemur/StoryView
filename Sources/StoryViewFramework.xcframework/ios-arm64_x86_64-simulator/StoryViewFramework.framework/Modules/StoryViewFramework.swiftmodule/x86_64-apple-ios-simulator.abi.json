@@ -1330,6 +1330,35 @@
         "kind": "TypeDecl",
         "name": "UserStoryViewConfiguration",
         "printedName": "UserStoryViewConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(profileImageSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserStoryViewConfiguration",
+                "printedName": "StoryViewFramework.UserStoryViewConfiguration",
+                "usr": "s:18StoryViewFramework04UseraB13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18StoryViewFramework04UseraB13ConfigurationV16profileImageSizeAC14CoreFoundation7CGFloatV_tcfc",
+            "mangledName": "$s18StoryViewFramework04UseraB13ConfigurationV16profileImageSizeAC12CoreGraphics7CGFloatV_tcfc",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:18StoryViewFramework04UseraB13ConfigurationV",
         "mangledName": "$s18StoryViewFramework04UseraB13ConfigurationV",

@@ -45,6 +45,7 @@ public struct UserStories : Swift.Identifiable {
   public typealias Body = @_opaqueReturnTypeOf("$s18StoryViewFramework04UseraB0V4bodyQrvp", 0) __
 }
 public struct UserStoryViewConfiguration {
+  public init(profileImageSize: CoreFoundation.CGFloat)
 }
 extension StoryViewFramework.StoryType : Swift.Equatable {}
 extension StoryViewFramework.StoryType : Swift.Hashable {}
