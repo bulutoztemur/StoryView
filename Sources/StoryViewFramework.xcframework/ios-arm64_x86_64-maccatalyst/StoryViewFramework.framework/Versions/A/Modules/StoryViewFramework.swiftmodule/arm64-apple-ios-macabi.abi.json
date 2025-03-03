@@ -937,7 +937,6 @@
             "mangledName": "$s18StoryViewFramework11UserStoriesV16lastVisitedIndexSivp",
             "moduleName": "StoryViewFramework",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -1009,7 +1008,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(username:profileImage:stories:isUserVisited:lastVisitedIndex:)",
+            "printedName": "init(username:profileImage:stories:lastVisitedIndex:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1045,20 +1044,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18StoryViewFramework11UserStoriesV8username12profileImage7stories02isD7Visited04lastK5IndexACSS_SSSayAA0A0VGSbSitcfc",
-            "mangledName": "$s18StoryViewFramework11UserStoriesV8username12profileImage7stories02isD7Visited04lastK5IndexACSS_SSSayAA0A0VGSbSitcfc",
+            "usr": "s:18StoryViewFramework11UserStoriesV8username12profileImage7stories16lastVisitedIndexACSS_SSSayAA0A0VGSitcfc",
+            "mangledName": "$s18StoryViewFramework11UserStoriesV8username12profileImage7stories16lastVisitedIndexACSS_SSSayAA0A0VGSitcfc",
             "moduleName": "StoryViewFramework",
             "declAttributes": [
               "AccessControl"
@@ -1371,13 +1364,6 @@
       "offset": 756,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/Model.swift",
-      "kind": "IntegerLiteral",
-      "offset": 801,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryView.swift",

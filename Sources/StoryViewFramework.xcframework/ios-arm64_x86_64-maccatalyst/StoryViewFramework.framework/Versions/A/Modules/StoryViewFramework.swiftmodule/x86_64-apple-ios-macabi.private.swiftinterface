@@ -34,7 +34,7 @@ public struct UserStories : Swift.Identifiable {
   public var stories: [StoryViewFramework.Story]
   public var isUserVisited: Swift.Bool
   public var lastVisitedIndex: Swift.Int
-  public init(username: Swift.String, profileImage: Swift.String, stories: [StoryViewFramework.Story], isUserVisited: Swift.Bool, lastVisitedIndex: Swift.Int)
+  public init(username: Swift.String, profileImage: Swift.String, stories: [StoryViewFramework.Story], lastVisitedIndex: Swift.Int)
   public typealias ID = Foundation.UUID
 }
 @_Concurrency.MainActor @preconcurrency public struct UserStoryView : SwiftUICore.View {
