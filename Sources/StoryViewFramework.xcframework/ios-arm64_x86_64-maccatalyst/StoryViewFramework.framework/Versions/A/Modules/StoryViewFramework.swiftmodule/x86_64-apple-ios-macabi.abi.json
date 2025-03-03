@@ -15,13 +15,100 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "UserStories",
+        "printedName": "UserStories",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework11UserStoriesV2id10Foundation4UUIDVvp",
+            "mangledName": "$s18StoryViewFramework11UserStoriesV2id10Foundation4UUIDVvp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV2id10Foundation4UUIDVvg",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV2id10Foundation4UUIDVvg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18StoryViewFramework11UserStoriesV",
+        "mangledName": "$s18StoryViewFramework11UserStoriesV",
         "moduleName": "StoryViewFramework",
         "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
         ]
       },
       {
@@ -77,6 +164,158 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserStoryView",
+        "printedName": "UserStoryView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework04UseraB0V4bodyQrvp",
+            "mangledName": "$s18StoryViewFramework04UseraB0V4bodyQrvp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework04UseraB0V4bodyQrvg",
+                "mangledName": "$s18StoryViewFramework04UseraB0V4bodyQrvg",
+                "moduleName": "StoryViewFramework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18StoryViewFramework04UseraB0V",
+        "mangledName": "$s18StoryViewFramework04UseraB0V",
+        "moduleName": "StoryViewFramework",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserStoryViewConfiguration",
+        "printedName": "UserStoryViewConfiguration",
+        "declKind": "Struct",
+        "usr": "s:18StoryViewFramework04UseraB13ConfigurationV",
+        "mangledName": "$s18StoryViewFramework04UseraB13ConfigurationV",
+        "moduleName": "StoryViewFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -92,142 +331,16 @@
     {
       "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 460,
+      "offset": 474,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 498,
+      "offset": 512,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "StringLiteral",
-      "offset": 190,
-      "length": 7,
-      "value": "\"Alice\""
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "StringLiteral",
-      "offset": 213,
-      "length": 31,
-      "value": "\"https:\/\/picsum.photos\/300\/300\""
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "StringLiteral",
-      "offset": 280,
-      "length": 98,
-      "value": "\"https:\/\/fastly.picsum.photos\/id\/305\/200\/300.jpg?hmac=qqxVDT5GPIxyVNSo9Y_9u_qZSwXU4Cy94gp7VAMVRIw\""
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 390,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "StringLiteral",
-      "offset": 431,
-      "length": 89,
-      "value": "\"https:\/\/v.ftcdn.net\/09\/85\/56\/22\/700_F_985562226_ahjIJPlBh9J4FJPEotCIAVxpCHVBPtE8_ST.mp4\""
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 532,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "StringLiteral",
-      "offset": 574,
-      "length": 98,
-      "value": "\"https:\/\/fastly.picsum.photos\/id\/305\/200\/300.jpg?hmac=qqxVDT5GPIxyVNSo9Y_9u_qZSwXU4Cy94gp7VAMVRIw\""
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 684,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "StringLiteral",
-      "offset": 744,
-      "length": 5,
-      "value": "\"Bob\""
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "StringLiteral",
-      "offset": 765,
-      "length": 31,
-      "value": "\"https:\/\/picsum.photos\/400\/300\""
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "StringLiteral",
-      "offset": 832,
-      "length": 98,
-      "value": "\"https:\/\/fastly.picsum.photos\/id\/485\/200\/300.jpg?hmac=Kv8DZbgB5jppYcdfZdMVu2LM3XAIt-3fvR8VcmrLYhw\""
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 942,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "StringLiteral",
-      "offset": 983,
-      "length": 98,
-      "value": "\"https:\/\/fastly.picsum.photos\/id\/305\/200\/300.jpg?hmac=qqxVDT5GPIxyVNSo9Y_9u_qZSwXU4Cy94gp7VAMVRIw\""
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1093,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "StringLiteral",
-      "offset": 1134,
-      "length": 89,
-      "value": "\"https:\/\/test-videos.co.uk\/vids\/bigbuckbunny\/mp4\/h264\/720\/Big_Buck_Bunny_720_10s_5MB.mp4\""
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1235,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "StringLiteral",
-      "offset": 1277,
-      "length": 98,
-      "value": "\"https:\/\/fastly.picsum.photos\/id\/485\/200\/300.jpg?hmac=Kv8DZbgB5jppYcdfZdMVu2LM3XAIt-3fvR8VcmrLYhw\""
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoriesApp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1387,
-      "length": 1,
-      "value": "3"
     },
     {
       "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/StoryView.swift",
