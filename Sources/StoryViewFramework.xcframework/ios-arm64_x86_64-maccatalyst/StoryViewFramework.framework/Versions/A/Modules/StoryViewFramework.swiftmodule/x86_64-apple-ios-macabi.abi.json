@@ -494,6 +494,51 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:duration:isViewed:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Story",
+                "printedName": "StoryViewFramework.Story",
+                "usr": "s:18StoryViewFramework0A0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StoryType",
+                "printedName": "StoryViewFramework.StoryType",
+                "usr": "s:18StoryViewFramework0A4TypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18StoryViewFramework0A0V3url8duration8isViewed4typeACSS_SdSbAA0A4TypeOtcfc",
+            "mangledName": "$s18StoryViewFramework0A0V3url8duration8isViewed4typeACSS_SdSbAA0A4TypeOtcfc",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -1323,14 +1368,14 @@
     {
       "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 749,
+      "offset": 756,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 794,
+      "offset": 801,
       "length": 1,
       "value": "0"
     },

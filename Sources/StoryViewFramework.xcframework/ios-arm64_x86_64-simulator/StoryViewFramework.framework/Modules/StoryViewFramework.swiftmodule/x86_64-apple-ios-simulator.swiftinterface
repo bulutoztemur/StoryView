@@ -24,6 +24,7 @@ public struct Story : Swift.Identifiable {
   public let duration: Foundation.TimeInterval
   public var isViewed: Swift.Bool
   public let type: StoryViewFramework.StoryType
+  public init(url: Swift.String, duration: Foundation.TimeInterval, isViewed: Swift.Bool, type: StoryViewFramework.StoryType)
   public typealias ID = Foundation.UUID
 }
 public struct UserStories : Swift.Identifiable {
