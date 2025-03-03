@@ -171,6 +171,49 @@
         "printedName": "UserStoryView",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(list:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserStoryView",
+                "printedName": "StoryViewFramework.UserStoryView",
+                "usr": "s:18StoryViewFramework04UseraB0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[StoryViewFramework.UserStories]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserStories",
+                    "printedName": "StoryViewFramework.UserStories",
+                    "usr": "s:18StoryViewFramework11UserStoriesV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserStoryViewConfiguration",
+                "printedName": "StoryViewFramework.UserStoryViewConfiguration",
+                "usr": "s:18StoryViewFramework04UseraB13ConfigurationV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18StoryViewFramework04UseraB0V4list6configACSayAA0D7StoriesVG_AA0daB13ConfigurationVtcfc",
+            "mangledName": "$s18StoryViewFramework04UseraB0V4list6configACSayAA0D7StoriesVG_AA0daB13ConfigurationVtcfc",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "body",
             "printedName": "body",

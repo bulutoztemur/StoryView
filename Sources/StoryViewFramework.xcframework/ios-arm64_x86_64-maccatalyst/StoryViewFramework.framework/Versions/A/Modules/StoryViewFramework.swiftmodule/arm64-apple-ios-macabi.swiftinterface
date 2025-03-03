@@ -15,6 +15,7 @@ public struct UserStories : Swift.Identifiable {
   public typealias ID = Foundation.UUID
 }
 @_Concurrency.MainActor @preconcurrency public struct UserStoryView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(list: [StoryViewFramework.UserStories], config: StoryViewFramework.UserStoryViewConfiguration)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
