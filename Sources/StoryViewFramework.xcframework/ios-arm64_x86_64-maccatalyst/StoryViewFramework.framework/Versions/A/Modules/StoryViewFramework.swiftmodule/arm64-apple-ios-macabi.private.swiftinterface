@@ -10,8 +10,30 @@ import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum StoryType {
+  case image, video
+  public static func == (a: StoryViewFramework.StoryType, b: StoryViewFramework.StoryType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Story : Swift.Identifiable {
+  public let id: Foundation.UUID
+  public let url: Swift.String
+  public let duration: Foundation.TimeInterval
+  public var isViewed: Swift.Bool
+  public let type: StoryViewFramework.StoryType
+  public typealias ID = Foundation.UUID
+}
 public struct UserStories : Swift.Identifiable {
   public let id: Foundation.UUID
+  public let username: Swift.String
+  public let profileImage: Swift.String
+  public var stories: [StoryViewFramework.Story]
+  public var isUserVisited: Swift.Bool
+  public var lastVisitedIndex: Swift.Int
+  public init(username: Swift.String, profileImage: Swift.String, stories: [StoryViewFramework.Story], isUserVisited: Swift.Bool, lastVisitedIndex: Swift.Int)
   public typealias ID = Foundation.UUID
 }
 @_Concurrency.MainActor @preconcurrency public struct UserStoryView : SwiftUICore.View {
@@ -23,4 +45,6 @@ public struct UserStories : Swift.Identifiable {
 }
 public struct UserStoryViewConfiguration {
 }
+extension StoryViewFramework.StoryType : Swift.Equatable {}
+extension StoryViewFramework.StoryType : Swift.Hashable {}
 extension StoryViewFramework.UserStoryView : Swift.Sendable {}

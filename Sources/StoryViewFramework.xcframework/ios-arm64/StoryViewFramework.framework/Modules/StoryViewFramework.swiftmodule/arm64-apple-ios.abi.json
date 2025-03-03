@@ -16,6 +16,534 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "StoryType",
+        "printedName": "StoryType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StoryViewFramework.StoryType.Type) -> StoryViewFramework.StoryType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StoryType",
+                    "printedName": "StoryViewFramework.StoryType",
+                    "usr": "s:18StoryViewFramework0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StoryViewFramework.StoryType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StoryType",
+                        "printedName": "StoryViewFramework.StoryType",
+                        "usr": "s:18StoryViewFramework0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18StoryViewFramework0A4TypeO5imageyA2CmF",
+            "mangledName": "$s18StoryViewFramework0A4TypeO5imageyA2CmF",
+            "moduleName": "StoryViewFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "video",
+            "printedName": "video",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StoryViewFramework.StoryType.Type) -> StoryViewFramework.StoryType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StoryType",
+                    "printedName": "StoryViewFramework.StoryType",
+                    "usr": "s:18StoryViewFramework0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StoryViewFramework.StoryType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StoryType",
+                        "printedName": "StoryViewFramework.StoryType",
+                        "usr": "s:18StoryViewFramework0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18StoryViewFramework0A4TypeO5videoyA2CmF",
+            "mangledName": "$s18StoryViewFramework0A4TypeO5videoyA2CmF",
+            "moduleName": "StoryViewFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StoryType",
+                "printedName": "StoryViewFramework.StoryType",
+                "usr": "s:18StoryViewFramework0A4TypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StoryType",
+                "printedName": "StoryViewFramework.StoryType",
+                "usr": "s:18StoryViewFramework0A4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18StoryViewFramework0A4TypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18StoryViewFramework0A4TypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "StoryViewFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework0A4TypeO9hashValueSivp",
+            "mangledName": "$s18StoryViewFramework0A4TypeO9hashValueSivp",
+            "moduleName": "StoryViewFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework0A4TypeO9hashValueSivg",
+                "mangledName": "$s18StoryViewFramework0A4TypeO9hashValueSivg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18StoryViewFramework0A4TypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18StoryViewFramework0A4TypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "StoryViewFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18StoryViewFramework0A4TypeO",
+        "mangledName": "$s18StoryViewFramework0A4TypeO",
+        "moduleName": "StoryViewFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Story",
+        "printedName": "Story",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework0A0V2id10Foundation4UUIDVvp",
+            "mangledName": "$s18StoryViewFramework0A0V2id10Foundation4UUIDVvp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework0A0V2id10Foundation4UUIDVvg",
+                "mangledName": "$s18StoryViewFramework0A0V2id10Foundation4UUIDVvg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework0A0V3urlSSvp",
+            "mangledName": "$s18StoryViewFramework0A0V3urlSSvp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework0A0V3urlSSvg",
+                "mangledName": "$s18StoryViewFramework0A0V3urlSSvg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework0A0V8durationSdvp",
+            "mangledName": "$s18StoryViewFramework0A0V8durationSdvp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework0A0V8durationSdvg",
+                "mangledName": "$s18StoryViewFramework0A0V8durationSdvg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isViewed",
+            "printedName": "isViewed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework0A0V8isViewedSbvp",
+            "mangledName": "$s18StoryViewFramework0A0V8isViewedSbvp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework0A0V8isViewedSbvg",
+                "mangledName": "$s18StoryViewFramework0A0V8isViewedSbvg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework0A0V8isViewedSbvs",
+                "mangledName": "$s18StoryViewFramework0A0V8isViewedSbvs",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework0A0V8isViewedSbvM",
+                "mangledName": "$s18StoryViewFramework0A0V8isViewedSbvM",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StoryType",
+                "printedName": "StoryViewFramework.StoryType",
+                "usr": "s:18StoryViewFramework0A4TypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework0A0V4typeAA0A4TypeOvp",
+            "mangledName": "$s18StoryViewFramework0A0V4typeAA0A4TypeOvp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StoryType",
+                    "printedName": "StoryViewFramework.StoryType",
+                    "usr": "s:18StoryViewFramework0A4TypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework0A0V4typeAA0A4TypeOvg",
+                "mangledName": "$s18StoryViewFramework0A0V4typeAA0A4TypeOvg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18StoryViewFramework0A0V",
+        "mangledName": "$s18StoryViewFramework0A0V",
+        "moduleName": "StoryViewFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UserStories",
         "printedName": "UserStories",
         "children": [
@@ -63,6 +591,434 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "username",
+            "printedName": "username",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework11UserStoriesV8usernameSSvp",
+            "mangledName": "$s18StoryViewFramework11UserStoriesV8usernameSSvp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV8usernameSSvg",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV8usernameSSvg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "profileImage",
+            "printedName": "profileImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework11UserStoriesV12profileImageSSvp",
+            "mangledName": "$s18StoryViewFramework11UserStoriesV12profileImageSSvp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV12profileImageSSvg",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV12profileImageSSvg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stories",
+            "printedName": "stories",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[StoryViewFramework.Story]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Story",
+                    "printedName": "StoryViewFramework.Story",
+                    "usr": "s:18StoryViewFramework0A0V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework11UserStoriesV7storiesSayAA0A0VGvp",
+            "mangledName": "$s18StoryViewFramework11UserStoriesV7storiesSayAA0A0VGvp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[StoryViewFramework.Story]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Story",
+                        "printedName": "StoryViewFramework.Story",
+                        "usr": "s:18StoryViewFramework0A0V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV7storiesSayAA0A0VGvg",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV7storiesSayAA0A0VGvg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[StoryViewFramework.Story]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Story",
+                        "printedName": "StoryViewFramework.Story",
+                        "usr": "s:18StoryViewFramework0A0V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV7storiesSayAA0A0VGvs",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV7storiesSayAA0A0VGvs",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV7storiesSayAA0A0VGvM",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV7storiesSayAA0A0VGvM",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isUserVisited",
+            "printedName": "isUserVisited",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework11UserStoriesV02isD7VisitedSbvp",
+            "mangledName": "$s18StoryViewFramework11UserStoriesV02isD7VisitedSbvp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV02isD7VisitedSbvg",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV02isD7VisitedSbvg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV02isD7VisitedSbvs",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV02isD7VisitedSbvs",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV02isD7VisitedSbvM",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV02isD7VisitedSbvM",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastVisitedIndex",
+            "printedName": "lastVisitedIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18StoryViewFramework11UserStoriesV16lastVisitedIndexSivp",
+            "mangledName": "$s18StoryViewFramework11UserStoriesV16lastVisitedIndexSivp",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV16lastVisitedIndexSivg",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV16lastVisitedIndexSivg",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV16lastVisitedIndexSivs",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV16lastVisitedIndexSivs",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18StoryViewFramework11UserStoriesV16lastVisitedIndexSivM",
+                "mangledName": "$s18StoryViewFramework11UserStoriesV16lastVisitedIndexSivM",
+                "moduleName": "StoryViewFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(username:profileImage:stories:isUserVisited:lastVisitedIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserStories",
+                "printedName": "StoryViewFramework.UserStories",
+                "usr": "s:18StoryViewFramework11UserStoriesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[StoryViewFramework.Story]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Story",
+                    "printedName": "StoryViewFramework.Story",
+                    "usr": "s:18StoryViewFramework0A0V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18StoryViewFramework11UserStoriesV8username12profileImage7stories02isD7Visited04lastK5IndexACSS_SSSayAA0A0VGSbSitcfc",
+            "mangledName": "$s18StoryViewFramework11UserStoriesV8username12profileImage7stories02isD7Visited04lastK5IndexACSS_SSSayAA0A0VGSbSitcfc",
+            "moduleName": "StoryViewFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -367,21 +1323,14 @@
     {
       "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 263,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/Model.swift",
-      "kind": "BooleanLiteral",
-      "offset": 474,
+      "offset": 749,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bulut.oztemur\/Desktop\/PersonalProjects\/StoryViewFramework\/StoryViewFramework\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 512,
+      "offset": 794,
       "length": 1,
       "value": "0"
     },
